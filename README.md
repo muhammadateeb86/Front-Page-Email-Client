@@ -10,7 +10,7 @@ Usage
 Contributing
 
 Demo
-Check out the live demo of the project here. (Provide a link to the live demo if available)
+You can view the live site at:([https://muhammadateeb86.github.io/Front-Page-Email-Client/))
 
 Features
 Upload and preview brand logos.
