@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SATAYA Brand Kit</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">
+                <img src="images/logo1.jpeg" alt="Sendif Logo" >
+            </div>
+            <button class="new-design">New Design</button>
+            <ul class="menu">
+                <li><a href="#">My Designs</a></li>
+                <li><a href="#">Templates</a></li>
+                <li><a href="#">Brand Kit</a></li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <h1>Brand Kit</h1>
+            <form id="brand-kit-form">
+                <div class="form-section">
+                    <label for="logo">Logo</label>
+                    <img src="images/dummy.jfif" alt="" id="logo-preview">
+                    <input type="file" id="logo" name="logo" accept="image/*">
+                </div>
+                <div class="form-section">
+                    <label for="brand-story">Can you please let us know how and why you came up with your brand?</label>
+                    <textarea id="brand-story" name="brand-story"></textarea>
+                </div>
+                <div class="form-section">
+                    <label for="bestselling-products">What are your bestselling products and the features you would like to highlight?</label>
+                    <textarea id="bestselling-products" name="bestselling-products"></textarea>
+                </div>
+                <div class="form-section">
+                    <label for="marketing-goals">What are your email marketing goals, if any, other than to drive sales?</label>
+                    <textarea id="marketing-goals" name="marketing-goals"></textarea>
+                </div>
+                <div class="colors">
+                    <h2>Colors</h2>
+                    <div class="color-palette">
+                        <div class="color" style="background-color: #E9E2E2;" onclick="selectColor(this)"></div>
+                        <div class="color" style="background-color: #4F0505;" onclick="selectColor(this)"></div>
+                        <div class="color" style="background-color: #187918;" onclick="selectColor(this)"></div>
+                    </div>
+                </div>
+                <button type="submit" class="save-changes">Save Changes</button>
+                <div id="form-feedback" class="hidden">Form submitted successfully!</div>
+            </form>
+        </div>
+        <div class="additional-content">
+            <h2>Tips & Guidelines</h2>
+            <div class="tips">
+                <ul>
+                    <li>Ensure your logo is clear and represents your brand identity.</li>
+                    <li>Choose colors that align with your brand message.</li>
+                    <li>Highlight the key features of your products.</li>
+                </ul>
+            </div>
+            <h2>Testimonials</h2>
+            <div class="testimonials">
+                <p>"This tool has made our branding process so much easier!" - Jane Doe</p>
+                <p>"The live preview feature is a game-changer." - John Smith</p>
+            </div>
+            <div class="gallery">
+                <img src="images/sample.png" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
